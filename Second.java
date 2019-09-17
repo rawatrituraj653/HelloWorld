@@ -13,6 +13,11 @@ class Second
 		  String  s2 = "world";
 		  String s3 = s1+s2;
 		  System.out.println(s3);
+		  
+		  public  int calculateInterest()
+		  {
+			    System.out.println("This method will calculate Interest");
+		  }
         
         } 
   }
