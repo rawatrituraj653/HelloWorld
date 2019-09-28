@@ -1,0 +1,36 @@
+src/main/java/com/nit/WelcomeService.java:3:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/nit/WelcomeService.java:3:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/nit/WelcomeService.java:3:	CommentRequired: Header comments are required
+src/main/java/com/nit/WelcomeService.java:3:	CommentRequired: Header comments are required
+src/main/java/com/nit/WelcomeService.java:5:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/nit/WelcomeService.java:5:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/nit/WelcomeService.java:5:	MethodArgumentCouldBeFinal: Parameter 'gender' is not assigned and could be declared final
+src/main/java/com/nit/WelcomeService.java:5:	MethodArgumentCouldBeFinal: Parameter 'gender' is not assigned and could be declared final
+src/main/java/com/nit/WelcomeService.java:7:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'msg' (lines '7'-'10').
+src/main/java/com/nit/WelcomeService.java:7:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'msg' (lines '7'-'10').
+src/main/java/com/nit/WelcomeService.java:7:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'msg' (lines '7'-'14').
+src/main/java/com/nit/WelcomeService.java:7:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'msg' (lines '7'-'14').
+src/main/java/com/nit/WelcomeService.java:8:	PositionLiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/nit/WelcomeService.java:8:	PositionLiteralsFirstInComparisons: Position literals first in String comparisons
+src/test/java/com/nit/WelcomeServiceTest.java:8:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/nit/WelcomeServiceTest.java:8:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/nit/WelcomeServiceTest.java:8:	CommentRequired: Header comments are required
+src/test/java/com/nit/WelcomeServiceTest.java:8:	CommentRequired: Header comments are required
+src/test/java/com/nit/WelcomeServiceTest.java:11:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/nit/WelcomeServiceTest.java:11:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/nit/WelcomeServiceTest.java:13:	LocalVariableCouldBeFinal: Local variable 'ws' could be declared final
+src/test/java/com/nit/WelcomeServiceTest.java:13:	LocalVariableCouldBeFinal: Local variable 'ws' could be declared final
+src/test/java/com/nit/WelcomeServiceTest.java:13:	ShortVariable: Avoid variables with short names like ws
+src/test/java/com/nit/WelcomeServiceTest.java:13:	ShortVariable: Avoid variables with short names like ws
+src/test/java/com/nit/WelcomeServiceTest.java:14:	LocalVariableCouldBeFinal: Local variable 'msg' could be declared final
+src/test/java/com/nit/WelcomeServiceTest.java:14:	LocalVariableCouldBeFinal: Local variable 'msg' could be declared final
+src/test/java/com/nit/WelcomeServiceTest.java:15:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/nit/WelcomeServiceTest.java:15:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/nit/WelcomeServiceTest.java:20:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/nit/WelcomeServiceTest.java:20:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/nit/WelcomeServiceTest.java:21:	LocalVariableCouldBeFinal: Local variable 'wservice' could be declared final
+src/test/java/com/nit/WelcomeServiceTest.java:21:	LocalVariableCouldBeFinal: Local variable 'wservice' could be declared final
+src/test/java/com/nit/WelcomeServiceTest.java:22:	LocalVariableCouldBeFinal: Local variable 'msg' could be declared final
+src/test/java/com/nit/WelcomeServiceTest.java:22:	LocalVariableCouldBeFinal: Local variable 'msg' could be declared final
+src/test/java/com/nit/WelcomeServiceTest.java:23:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/nit/WelcomeServiceTest.java:23:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
