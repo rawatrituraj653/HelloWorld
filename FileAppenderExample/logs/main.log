@@ -1,0 +1,15 @@
+this is my simple debug method
+this is my simple info method 
+this is my simple warn method 
+this is simple error method 
+this is simple fatal method 
+2019-09-28 20:54:47,021 +0530 [main] DEBUG (Log4jExample.java:16) - this is my simple debug method
+2019-09-28 20:54:47,024 +0530 [main] INFO  (Log4jExample.java:17) - this is my simple info method 
+2019-09-28 20:54:47,025 +0530 [main] WARN  (Log4jExample.java:18) - this is my simple warn method 
+2019-09-28 20:54:47,025 +0530 [main] ERROR (Log4jExample.java:19) - this is simple error method 
+2019-09-28 20:54:47,025 +0530 [main] FATAL (Log4jExample.java:20) - this is simple fatal method 
+2019-09-28 20:56:17,057 +0530 [main] DEBUG (Log4jExample.java:16) - this is my simple debug method
+2019-09-28 20:56:17,063 +0530 [main] INFO  (Log4jExample.java:17) - this is my simple info method 
+2019-09-28 20:56:17,064 +0530 [main] WARN  (Log4jExample.java:18) - this is my simple warn method 
+2019-09-28 20:56:17,064 +0530 [main] ERROR (Log4jExample.java:19) - this is simple error method 
+2019-09-28 20:56:17,065 +0530 [main] FATAL (Log4jExample.java:20) - this is simple fatal method 
