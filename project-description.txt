@@ -1,0 +1,461 @@
+Realtime-Project Description
+---------------------------------------------
+Types of software company
+types of sw project
+types of sw job
+how to keep f.. experience
+how to cover the gap 
+
+Realtime tool
+------------------------------------------------
+Maven, Gradle and Ant for build tools
+SVN, GIT for code repository
+Log4j, putty , slf4j, winscp, and spluck for logging 
+Junit, mockito, powermock, easymock, jacoco for unit testing 
+MAT (memory analyzer tool for heapdum and threadump)
+Jenkin for CI/CD
+JMeter for performance testing 
+Selenium
+Docker
+Kubernet
+Bugzilla and jira for project management and task assignment
+PMD(programmer mistake detector) and SonarQube and SonarLint for code review
+
+What is project ?
+Project Module 
+Project Architecture
+Story Development
+       FDD(feature driven development)
+       Querylog
+       MOM
+       SharePoint
+       Bridge call
+       TDD(Test Driven Development)
+          UML(unified modeling language)
+          class diagram
+          Flow Diagram
+
+Development
+Unit Test
+Code Review
+Code Coverage
+Deployment
+
+SpringBoot
+Microservices
+Apache Kafka
+Security SSL and Oauth
+SOLID oops principal
+Design Pattern LRU Cache
+Executor service for multithreading
+Batch Execution with parallel instances with ora hashing technique
+
+120 logical program
+85  hibernate
+75  springboot
+20  microservices
+85  project manager
+
+Types of Company
+-----------------------------------------------------------------------------
+Service Based Company
+provide service to client according to client requirements
+TCS, INFOSYS, WIPRO, TECH MAHINDRA, CAPGEMENY
+mainly focus on latest technology
+
+
+Product Based Comapny
+Develop product or project and they sell those product to customer in the market
+Microsoft,IBM, Oracle, Samsung, Service Now
+DataStructure, Design Pattern, Algorithm
+
+OutSourcing company
+These comapnies will deploy employees into client location
+contract to hire position
+
+Types of job
+-----------------------------------------------------------------------------------
+Permanent
+
+Contract
+
+BuyOut policy
+May Available may not available , manager have to accept your request, depend on manager choice
+you may be a critical resource for that comapny
+you have to complete KT(Knowledge Transfer)
+Dont say for buyout, say I will negotiate within 20days (as a f...)
+
+Contract Job
+Dangerous job, job security not available
+be carefull for notice period
+Security not availble 
+notice period not available
+PF not available
+Medical insurance not available
+
+Ask
+Is it a permanent job or contract job??
+
+Types of Project ??
+
+Scratch Development(5%)
+Learning is good
+
+Maintenance Project (80%)
+Development is all ready completed but we are going to provide suppoert for the project
+
+CR(Change Request)
+Jsp to angular
+Different functionalities
+Export XL to PDF
+Masking of aadhar 
+Changing behaviour of screen
+changing background color
+
+Enhancement
+Apply pagination
+Adding extra functionalities
+like in irctc book hotel ticket as well as book bus tickect
+
+M&O(Maintance and Operation)
+support for bug
+Production support
+Project is runing in the production env
+monitor the log
+24x7 job dont join M&O job 
+scope are very less
+Transaction Time out
+NUllPointerException
+Button Not working 
+Received money but didnt get msg 
+Dangerous job, Rotational shift job
+Monitor the log using Splunk tool
+
+Migration Project(20%)
+changing version
+Monolithic to Microservices
+One DB to another DB
+Soap to rest
+Oracle to hadoop
+Mainframe to java
+java to python
+one server to another server
+2017 -->2.5 ot 2+ years
+
+Retrospective  means  review
+
+First Day in the company
+---------------------------------------------------------------
+1) On Boating with Hr
+How to get Mail
+what to do
+salary, bag, laptop
+
+2) Induction Program
+Payscale
+company strating time 
+Holiday
+Salary deduction and disscussion
+
+Bench resource means not allocated to any project 
+
+RM means Resource manager
+
+3)Resource is on the bech means allocated to project
+
+4)Project KT
+project Structure
+project knowledge
+classes, packages
+Architecture
+High level setup
+Module 
+Explaination of functionalities
+
+Goel Setting 
+I am new to this project, I want to know complete functionalities of the project 
+PoC on new technoogy
+learn angular
+java certification
+DO KT
+
+al last goal evalution
+---------------------------------------------------------------------------------------
+Buil tool
+Ant Mabven and gradle
+
+VC(Version control)
+GIT,BIGBUCKET, CVS,SVN,IBM rational, Clear Case
+
+Code Coverage
+Jacoco, Jtest
+
+Log Monitoring tool
+Splunk Putty
+
+Bug Reporting tool
+Jira, BugZilla
+
+Task also assign by jira
+
+Performance Testing tool
+Jmeter
+
+CI/CD
+Jenkins (automatic project deployment)
+
+Quality Gateway
+
+
+calculation of effective Time 
+Design
+Coding 
+code review
+unit testing 
+integration testing 
+-----------------------------------------------------------------------------
+
+project stages
+Testing environment
+How project code will remove from one env to another env
+What is developer responsibility in testing 
+what is test life cycle
+what is bug lif cycle
+Unit testing 
+juint
+powermock
+jacoco
+
+Higher envirnoment of project
+
+DIT(Development Independent Testing)
+This is used to perform developer integration testing 
+to do project deployment in DEV box, jenkins pipeline will be created
+
+
+SIT(Systems Integration Test) --QA(Quality Assurance)
+This env is used for s/w testing 
+SIT will be used by Software test engineers
+
+
+UAT(User Acceptance Testing)
+This is client specific env
+here client or client side team will perform testing of the project
+UAT will decide GO or NO-GO
+
+Go means live (production env)
+NO-Go means not live
+
+-------------------------------------------------------------------------------------
+Unit Testing 
+The process of testing of independent peice of component is called unit testing 
+
+How many ways we can perform unit testing??
+1)Manual Unit Testing (Debugging)
+
+2)Automation Testing (Junit)
+
+Why to perform unit testing ?
+To make sure our code is working as expected
+To maintain code quality
+To provide bug free code to higher env
+
+-----------------------------------------------------------------------------------------
+
+GIT HUB
+-------
+git - the stupid content tracker
+
+git command
+
+git --help (to get help)
+git config (using this command you can describe the repository behaviour, prefences and user information)
+git config --global user.name   "your  username"
+git config --global user.email  "your email associated with github"
+git init (to initialize local repository it will create .git file into your local machine)
+git clone  URL  (it will download you file from central repo to your local repo)
+git status (to check current status of local repo)
+git add file-name (to add your life in local repo)
+git commit -m "write your own message" (to commit your code in local repo)
+git push (to push your code local to central repo)
+git history (to see all log file )
+git reset ( Reset current HEAD to the specified state)
+git pull (to get your file from central to local repo)
+git checkout [branch-name] (use to switch from one branch to another branch)
+git checkout -b [branch-name] (create a new branch and also switch to it)
+git diff  (to depectic the changes between commit)
+git rm <file-name>  (delete the file from your working directory and stages the deletion)
+git log (to know the history)
+--------------------------------------------------------------------------------------------------------
+
+JUnit
+------------
+Testing 
+Testing  is the process of cheching the functionalities of the application wheather it fullfil
+the requirement or not
+
+JUnit is a testing framework, it is used for unit testing of java application.
+
+Unit testing 
+the process of testing individual functionality of the application is called unit testing
+
+test
+maual 
+automated
+    it is very fast
+    investment is very less
+    testing is more reliable
+    testing can be programmed
+
+JUnit extention 
+     JWebUnit
+     XMLUnit
+     Cactus
+     MockObject
+
+Annotations for JUnit testing 
+----------------------------------
+@Test
+@Test(timeout="time in ms")
+@BeforeClass
+@Before
+@After
+@AfterClass
+
+Assert Class Methods
+--------------------------------------
+assertEqual()
+assertTrue()
+assertFalse()
+assertNull()
+assertNotNull()
+
+
+Mockito
+-------------
+Annotation of the mockito library
+--------------------------------------------
+@Mock
+@Spy
+@Captor
+@IjectMocks
+
+enable the mockito annotation 
+
+     @RunWith(MockitoJUnitRunner.class)
+     public class MockitoTest
+        {
+  
+          }
+
+EasyMock
+-----------------------------------------------
+
+to enable easymock 
+
+   @RunWith(EasyMockRunner.class)
+  public class Test
+        {
+     
+            }
+
+
+   EasyMock.createMock(YourClassName.class)  ---> to create a mock object
+  
+  // Setting dummy behaviour for WeatherForeCastor
+		EasyMock.expect(ibmWeatherForeCastor.findTemperature(500081)).andReturn(42.14);
+		EasyMock.expect(ibmWeatherForeCastor.findTemperature(500082)).andReturn(41.14);
+		EasyMock.expect(ibmWeatherForeCastor.findTemperature(500031)).andReturn(35.14);
+		EasyMock.replay(ibmWeatherForeCastor);
+
+		// Injecting mock object to service class
+		service.setIbmWeatherForeCastor(ibmWeatherForeCastor);
+
+
+
+
+PowerMock
+------------------------
+Simple way to overcome the problems of mockito such as the lack of ability to mock final,
+static or private methods
+
+dependencies
+-------------------
+ 1 ) powermock-module-junit4
+ 2 ) powermock-api-mockito
+
+//to enable powermock
+
+   @RunWith(PowerMockRunner.class)
+   @PrepareForTest(fullyQualifiedNames="")
+   public class PowerMockTest 
+     {
+         
+      }
+
+
+Jacoco (code coverage tool)
+-------------------------------------
+Jenkins pipeline use to deploy latest code into git repo
+pull the latest code from git repo
+execute maven goals clean test install
+deploy the war into server
+goals=> clean compile test install
+
+Assertion use to validate the results.
+
+As part of unit testing we have to messure how much cide ius covered in unit testing thats called as 
+messuring code coverage
+to manage code coverage we will use jacoco plug-in in pom.xml
+you can also exclude some packages in jacoco or some class in jacoco
+
+RealTime project Coding standard
+-----------------------------------------------------------------------------------
+
+1) Class Should not exceed more than 2000lines
+2) Method should not execeed more than 30lines
+3) Before performing operation on any project we have to do NPE (null check)
+4) Every class , method constructor and block should conatain documentational comment 
+5) String use (String value directly not use in class) declare it in a constant class
+6)Dont use variable name as password ssn
+    pazzword=""
+    szz = "";
+
+PMD(Programmer Mistake Detector) 
+major 
+minor 
+blogger
+critical issue messure
+this is perform in local envirment
+
+sonarqube or sonarlint in jenkins use in higher env like DEV
+to understand quality of code go for code review
+
+Mule soft use as a webservices 
+To communicate with one to another project 
+(Old webservice)
+(new MuleSoft)
+
+Code Review (PMD tool)
+-----------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
