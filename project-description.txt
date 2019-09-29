@@ -438,7 +438,126 @@ To communicate with one to another project
 
 Code Review (PMD tool)
 -----------------------------------------------------------------------
+Verifying coding stadard
+verifying businesslogic implementation
 
+Two ways  1)Peer review (Maintain quality)
+                your team member will review code (new component)
+                Existing component
+                   (Do a meeting with team members)
+                   (Skype meeting ) this is also called as scrum meeting or bridge call
+
+          2) Tool review
+               We use PMD plug-in in local enviroment 
+               and in higher environment use sonarqube in jenkins
+
+Advantage of code review 
+
+    code quality will be improved
+    code standard will be improved
+    code readability will be improved
+    code can be optimize
+    we can provide bug free code
+When we are reviewing our code using pmd it will show you below issue in our code(Vulnerability)
+    Blocker
+    Critical
+    Major
+    Minor
+Note :- Some issue are false-possitive no need to fix it like minor
+
+First Day In Your Company
+-------------------------------
+1) Get access for repository
+2) pull code from repository
+3) setup workspace 
+4) debug few screen in project and understand flow of execution
+5) observe coding standard in existing code 
+6) do coding according to task requirement 
+7) perform code review
+8) debug your code 
+9) write unit testing for code
+10)execute unit tests 
+11)capture code coverage report
+12)push code to repository
+13)setup meeting with team members to review your code
+
+LOG4J
+--------------------------------------------------------------
+every application should generate log message in log file
+To generate log message we will use log4j framework
+log4j is an opensource framework developed by apache
+It is developed using java
+log4j is release in the form of jar
+
+
+use to track bug, error, defect in higher enviroment like DIT, SIT, UAT, PILOT, PROD
+
+log4j    log4j is a reliable, fast and flexible logging framework(Apache s/w)
+log4j   1.x
+log4j   2.x
+
+Main component of log4j
+-------------------------
+1- Logger
+2- Appender  (represent destination)
+3- Layout
+
+
+Defining the Log4j Level
+---------------------------
+ALL
+DEBUG
+INFO
+WARN
+ERROR
+FATAL
+OFF (No logging)
+
+      static Logger log= Logger.getLogger(YourClass.class);
+
+Methods in logger class
+-----------------------
+public void trace(Object obj)
+public void debug(Object obj)
+public void info(Object obj)
+public void warn(Object obj)
+pubic  void error(Object obj)
+public void fatal(Object obj)
+
+Order of Level
+------------------------------
+All<Trace<Debug<Info<Warn<Error<Fatal<Off
+
+Appender(Destination)
+
+FileAppender
+        RollingFileAppender
+        DailyRollingAppender
+ConsoleAppender
+JDBCAppender
+SMTPAppender(mail)
+SocketAppender(for remote storage)
+TelnetAppender
+
+Layout (formatting logging information in differrent style)
+----------------------------------------------------------
+SimpleLayout
+PatternLayout
+HTMLLayout
+XMLLayout
+
+Log4j Configurations
+--------------------------
+Basic Configuration 
+    BasicConfigurator.configure()
+Using Properties file
+using XML file
+programatic configuration
+
+PropertyConfigurator.configuration("file.properties")
+
+
+  
 
 
 
