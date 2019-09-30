@@ -556,7 +556,51 @@ programatic configuration
 
 PropertyConfigurator.configuration("file.properties")
 
+Log Monitoring Tool
+----------------------------------
+in realtime we use putty, wincsp, and splunk as log monitoring tool 
 
+for connecting window to linux we use putty and splunk
+by using putty , you dont have control on stoping the log bcoz it is command line tool
+so we will use winscp (drag and drop the file ) you will have proper control on log file.
+Winscp query
+ 
+
+in real-time log file is mountained in different server and here you will connect through 
+putty or winscp bcoz your company will not allow you to directly access with SIT,UAT environment 
+so there is a need of on-board the log file in different server
+
+Splunk
+----------
+It is a log analyzer tool 
+it is used in analysis of realtime problem
+you can minitor your log properly over here.
+you have also fix ur time when you want to see the log 
+there is two types of splunk work
+Administrator (mount the log)
+Developer(Query the log) 
+create the dashboard 
+Hide the PII Data(Personal Indentification Information) 
+through which we can identify the user
+--------------------------------------------------------------------------------------------------
+
+SLF4J VS LOG4J
+----------------------
+SLF4J --> Simple Logging Facade for java
+slf4j and log4j focus on different area and they are not similar component
+slf4j is a logging faced for java
+it is only as abstraction layer to an underlying component
+
+slf4j is not a logging  framework it is an abstraction layer
+internally slf4j uses log4j framework to generate actual logs in runtime
+we can configure any logging framework like log4j, logback or java logging 
+slf4j api provide abstraction and can be integrated with any kind of logging framework
+it provide losely couplying
+slf4j is an api design to give generic access to the many logging framework log4j is one of them
+slf4j work with log4j (internally use log4j)
+slf4j is a bindoing jar
+looging framework log4j
+-------------------------------------------------------------------------------------
   
 
 
