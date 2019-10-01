@@ -1,0 +1,21 @@
+Springboot
+----------------------------------------
+Springboot is not a framework
+it is an approach to develop spring based application 
+with minimal or zero configurations.
+Starter poms(reduce maven configuration)
+Auto configuration management(basePackage name is import)
+
+Web-App
+     src/main/java
+           com.sbi.netbanking.app -----basepackage
+           com.sbi.netbanking.app.dao
+           com.sbi.netbanking.app.service
+           com.sbi.netbanking.app.controller
+           com.sbi.netbanking.app.util
+           com.sbi.netbanking.app.endpoints
+
+
+Server less developement (embeded serve tomcat, jetty , undertow)
+
+Actuator (provide production ready features)
