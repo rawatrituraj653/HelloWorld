@@ -1,0 +1,74 @@
+*** Project Round Interview Questions*****
+
+
+
+Q1 Tell me your current project ? 
+Q2. What are modules you worked ?
+Q3 .What is your role in the modules ?
+Q4. What are the business logic you wrote ?
+Q5.How will verify the Authentic user(for login page ) ?
+Q6.What are the service you wrote ?
+Q7.How these services getting called ?
+Q8.how the rest services are called and where it called ?
+Q9.Which persistence layer r u using and why ?
+Q10.What is the difference between hibernate and Jdbc where we have to choose which one ?
+Q11.Did u use Aop in your project and where ?
+Q12.Did u use transaction in your project and where ?
+Q13.How the transactions are managed ?
+Q14.What is transaction .How u did transaction. If u used transaction what are the benefits of it.
+Q15.More than one configuration file does spring allow ?
+Q16.Where r u mentioned multiple configuration files ?
+Q17.How to create a rest web service ?
+Q18 Which build tool u r using ?(maven)
+     Can u tell me deployment process ?
+Q19How many reasons in ur project ?
+Q20.Where u install Tomcat Server ,what is other than tomcat server ?
+Q21.Junit comes under which testing ,unit Testing or System Testing ?
+Q22.What is the development Enviornment ?
+Q23.After unit testing where it move (which region)?
+If any errors or bugs of testing team,how they report
+Q24. Before moving to production ,user/customer need to test your application or not ?
+Q25. Do u use any user acceptance testing?
+Q26. What is staging ? These are windows or linux server ,
+     who will deploy into staging , do u used tomcat or windows server..
+Q27. How client will finally agree to this project ,which stage they will agree ?
+Q28.How a project is moving from outstage ?
+Q29.What are the stages of a project ?
+Q30.Are you using any annotations for rest ?
+Q31.What is the frontend u used ?
+Q32 Angular js ,how did u send the data from service and what format and what format u r returning the data ?
+Q33. How r u converting data into json. 
+     R u using any spring entity for reading data .
+     How u get the data from database .
+     Suppose u have many users ,
+     u need to convert what ever the result from the database into json or not ?
+Q34.What is the configuration management tool u used ?
+Q35.How many environments you had ?
+Q36. Did you use collection in your project and where ?
+Q37.Where you are using webservices in your project architecture ?
+Q38.Develop one sample Rest resource with all the HttpMethod based in your project scenario.
+Q39.Which data source you are using ?
+Q40.How you connect databases in spring Hibernate configuration , where ?
+Q41.Which type of collection u used ,U directly writing user name & password or u used any directory ?
+Q42.Do u know JNDI ?
+Q43.I have a scenario ,the requirement of client is 2 page to design .
+    first page is login page ,2nd page is content page .
+     Just explain steps in springHibernate .
+Q44.What is configuration files ?Tell me some configuration files .
+Q45.Tell me some elements of web.xml ?
+Q46.Which response you are providing to UI through rest.
+Q47.Which approach u r using to develop web service and why ?
+Q48.R u used singleton in your project why and where ?
+Q49.Defect test which tool you are using ?
+Q50.What is mvn and what is the advantages ?
+Q51.How u write junit cse. Write a sample code .?
+Q52.Which methodlogy u are using,Tell me ur complete work responsibility ?
+Q53.What is sprint duration estimate ?
+Q54.If your Junit test case fail then what will u do ?
+Q55.How can you achieve Abstraction with real time example(project) ?
+Q56.What are the exception u face in your project development and how u resolve them explain ?
+Q57.Which security u r using ?
+Q58.Level of log(which one u use in your project)?
+Q59.Write spring transaction configuration ?
+Q60.Which version spring u used ?
+Q61.What is your daily activity in your working environment ?

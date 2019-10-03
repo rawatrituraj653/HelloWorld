@@ -1,0 +1,65 @@
+---------------------------------------
+Date(02-03-2019)(Sapiens)
+--------------------------------------
+1st round-->
+
+System testing(Multiple Choice)
+-> HTML,SQL(More),java,XML
+one question from enum
+one from reflection
+one from HTML
+one from xml
+gave some programs to find the output.
+join queries.
+
+total 18 questions was there
+
+2nd round-->
+
+F2F asked to read data from html page and store that in DB.(Using Spring)
+-> again SQL join questions.
+-> asked to write some DB Queries
+
+-----------------------------------
+HUAWEI Technologies.(07-3-19)
+------------------------------------
+1st round is written test.
+1. ArrayList vs vector
+2. Hashtable vs HashMap
+3. vector vs arraylist
+	(simillarities and diff.)
+4. what is dependency injection
+5. How many ways you can perform dependency injection
+6. BeanFctory Vs. ApplicationContext
+7. how to enable Transaction Management in spring and what are the advantages of    Tx. Mgmt.
+8. What is the use of @RequestMapping,@QueryParam,@PathParam
+9. Some Design Patterns Used by Spring Framework
+10. if you are passing a collection in method argument how can you make sure     that    the collection will not be modifyied.
+11. and some other questions from spring 
+12. one program from collection.
+ Some other Questions.
+2nd round is Technical
+----------------------
+1.discussed about project.
+2.executor service. write a sample code for executor service
+3.and explain the program given in the written test.
+4.use-case diagram , sequence diagram
+5.how to debug a UI page
+6.how to debug Controllers,service classes
+7.how is the mapping happening from UI to Controller
+
+3rd round is tech+mgr
+---------------------
+1. tell me something about yourself
+1.1.again project discussion.
+2.put vs post
+3.post vs get
+4.listener in DB
+5.HTTP vs. HTTPS
+6.REST security
+7.what is your team size
+8.what challenging situation you faced in your last project
+9.how many testers are there in your team
+10.SQL joins
+11.primary key and foreign key
+12.how batches are executing 
